@@ -4,10 +4,10 @@ import { useEffect, useRef, useState } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Happy Birthday Palak 💖" },
-      { name: "description", content: "A little surprise made with love, just for Palak." },
-      { property: "og:title", content: "Happy Birthday Palak 💖" },
-      { property: "og:description", content: "A little surprise made with love, just for Palak." },
+      { title: "Happy Birthday Asha 💖" },
+      { name: "description", content: "A little surprise made with love, just for Asha." },
+      { property: "og:title", content: "Happy Birthday Asha 💖" },
+      { property: "og:description", content: "A little surprise made with love, just for Asha." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
@@ -131,7 +131,7 @@ function Cake({ onBlown }: { onBlown: () => void }) {
       <div className="h-16 w-64 rounded-t-2xl bg-primary shadow-lg relative">
         <div className="absolute inset-x-0 top-0 h-5 rounded-t-2xl bg-foreground/90" style={{ clipPath: "polygon(0 0,100% 0,100% 60%,90% 100%,80% 60%,70% 100%,60% 60%,50% 100%,40% 60%,30% 100%,20% 60%,10% 100%,0 60%)" }} />
       </div>
-      <div className="h-16 w-80 rounded-t-xl bg-accent flex items-center justify-center font-display text-2xl text-background">Palak</div>
+      <div className="h-16 w-80 rounded-t-xl bg-accent flex items-center justify-center font-display text-2xl text-background">Asha</div>
       <div className="h-3 w-96 max-w-[90vw] rounded-full bg-foreground/80" />
       <p className="mt-4 text-sm text-muted-foreground">Tap each candle to blow it out & make a wish 🕯️</p>
     </div>
@@ -145,7 +145,7 @@ function Typewriter({ text }: { text: string }) {
   return <p className="whitespace-pre-line text-lg leading-relaxed">{text.slice(0, n)}<span className="animate-twinkle">|</span></p>;
 }
 
-const LETTER = `My dearest Palak,
+const LETTER = `My dearest Asha,
 
 Of all the days I've ever had, the ones with you are my favourites.
 
@@ -153,7 +153,7 @@ Thank you for every smile, every hug, every late-night talk. You make my life br
 
 Here's to another year of us. I love you endlessly. 💖
 
-— Yours forever, Pragnesh`;
+— Yours forever, Harshil`;
 
 function Index() {
   const [stage, setStage] = useState(0); // 0 intro,1 cake,2 party
@@ -195,7 +195,7 @@ function Index() {
       {stage === 0 && (
         <section className="relative z-20 flex min-h-screen flex-col items-center justify-center px-6 text-center">
           <div className="animate-heartbeat text-7xl">🎁</div>
-          <h1 className="animate-fade-up mt-6 font-display text-5xl text-glow md:text-7xl">Hey Palak…</h1>
+          <h1 className="animate-fade-up mt-6 font-display text-5xl text-glow md:text-7xl">Hey Asha…</h1>
           <p className="animate-fade-up mt-4 max-w-md text-muted-foreground" style={{ animationDelay: ".4s" }}>
             Someone who loves you very much made something special. Ready?
           </p>
@@ -218,7 +218,7 @@ function Index() {
         <div className="relative z-20 px-6 pb-24">
           <section className="flex min-h-screen flex-col items-center justify-center text-center">
             <p className="animate-fade-up text-xl text-muted-foreground">🎉 Yay! Your wish is on its way 🎉</p>
-            <h1 className="animate-pop mt-4 font-display text-6xl text-glow md:text-8xl">Happy Birthday<br />Palak!</h1>
+            <h1 className="animate-pop mt-4 font-display text-6xl text-glow md:text-8xl">Happy Birthday<br />Asha!</h1>
             <p className="animate-fade-up mt-6 max-w-lg text-lg" style={{ animationDelay: ".6s" }}>
               To the girl who turns my ordinary days into something worth celebrating ❤️
             </p>
