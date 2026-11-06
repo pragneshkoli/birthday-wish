@@ -1,5 +1,6 @@
 # 🎂 Birthday Wish — Interactive Celebration Web App
 
+[![Live Demo](https://img.shields.io/badge/Demo-asha--birthday--wish.vercel.app-success?style=flat&logo=vercel)](https://asha-birthday-wish.vercel.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -9,6 +10,13 @@
 A modern, highly interactive, and easily customizable birthday celebration web application built with **React**, **TanStack Start**, and **Tailwind CSS**. 
 
 Designed to surprise loved ones with immersive celebrations featuring interactive birthday candles, pop-able floating balloons, dynamic canvas fireworks, confetti storms, customizable note cards, and a revealable heartfelt letter.
+
+---
+
+## 🌐 Live Demo
+
+Experience the interactive celebration live:  
+👉 **[https://asha-birthday-wish.vercel.app](https://asha-birthday-wish.vercel.app/)**
 
 ---
 
